@@ -43,4 +43,5 @@ public  class Operator {
         System.debug('result : ' +  logic);
 
     }
+
 }

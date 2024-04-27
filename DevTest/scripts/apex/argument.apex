@@ -1,33 +1,40 @@
-Argument av =new Argument();
+// Argument av =new Argument();
 // default print
-av.newdefaultPrint();
+// av.newdefaultPrint();
 // argument printhi
-string msg = ' arguments print value ';
-av.printArgValue(msg);
+// string msg = ' arguments print value ';
+// av.printArgValue(msg);
 // other variant
-av.printArgValue('Lorem Ipsumy versions of Lorem Ipsum');
+// av.printArgValue('Lorem Ipsumy versions of Lorem Ipsum');
 // return argument
-string textvalue=' i am returnly string method';
-string returnvalue=av.printArgReturn(textvalue);
-System.debug(textvalue);
+// string textvalue=' i am returnly string method';
+// string returnvalue=av.printArgReturn(textvalue);
+// System.debug(textvalue);
 
-System.debug('------------------down example pratice integer---------------------------');
-//integer
-Argument iv= new Argument();
-System.debug(iv.gosmak(15, 10));
+// System.debug('------------------down example pratice integer---------------------------');
+// integer
+// Argument iv= new Argument();
+// System.debug(iv.gosmak(15, 10));
 
-integer a=12;
-integer b=18;
-Integer c=34;
-Integer sum = iv.gosmak(a, b);
-System.debug('result: '+ sum);
+// integer a=12;
+// integer b=18;
+// Integer c=34;
+// Integer sum = iv.gosmak(a, b);
+// System.debug('result: '+ sum);
 
-Integer sum1=av.gosmak(a, b, c);
-System.debug('res :  ' + sum1 ); 
+// Integer sum1=av.gosmak(a, b, c);
+// System.debug('res :  ' + sum1 ); 
 
-System.debug('--------------boolean-----------------');
-Argument bv=new Argument();
+// System.debug('--------------boolean-----------------');
+// Argument bv=new Argument();
 
-Date isLPY=Date.newInstance(2029,5,12);
-Boolean dateLp=bv.islpYear(isLPY);
-System.debug(isLPY + 'is leap year ?  '+ dateLp);
+// Date isLPY=Date.newInstance(2029,5,12);
+// Boolean dateLp=bv.islpYear(isLPY);
+// System.debug(isLPY + 'is leap year ?  '+ dateLp);
+
+Argument.newdefaultPrint();
+Argument.printArgValue('SALAM');
+System.debug(Argument.printArgReturn('TEST'));
+System.debug(Argument.gosmak(12, 3));
+System.debug(Argument.gosmak(1,2,3));
+//System.debug(Argument.islpYear(1,1,1997));
