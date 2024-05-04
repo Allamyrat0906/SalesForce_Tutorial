@@ -60,5 +60,29 @@ public class ListDemo {
         return checker;
     }
 
-    
+    public static void IntegerforEachLoop(){
+        List <Integer > intfor = new List <Integer>();
+        intfor.add(12);
+        intfor.add(2);
+        intfor.add(5);
+        intfor.add(1);
+        System.debug('all list data: '+ intfor);
+
+        //for each example
+        for (Integer singleForEach : intfor){
+            System.debug('Each data ' + singleForEach);
+        }
+    }
+    public  static integer add( List<Integer> intList){
+        // start value
+        Integer sumInteger=0;
+
+        // for each loop
+        for (Integer eachInt : intList){
+            // full version sumInteger= sumInteger +eachInt
+            sumInteger += eachInt;
+        }
+        return sumInteger;
+    }
+
 }

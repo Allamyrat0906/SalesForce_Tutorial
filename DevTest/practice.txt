@@ -1,0 +1,4 @@
+craete new class (class name Salesforce_developer)
+create static method (method name People)
+and  create new list and add all student name to the list 
+and print me each student name 
